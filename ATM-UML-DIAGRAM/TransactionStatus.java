@@ -1,3 +1,10 @@
-public class TransactionStatus {
-    
+
+public enum  TransactionStatus {
+    Success(),
+    Failure(),
+    Blocked(),
+    Full(),
+    Partial(),
+    None();
+
 }
