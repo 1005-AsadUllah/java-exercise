@@ -1,9 +1,18 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 
 public class arrayList{
     public static void main(String[] args) {
+
+        List<String> list1 = new ArrayList<>();
+        list1.add("Apple");
+        list1.add("Banana");
+        list1.add("Apple"); // Duplicates allowed
+        System.out.println(list1.get(0)); // Access by index
+
+        //ArrayList
         ArrayList<Integer> list = new ArrayList<>();
 
         //add element
@@ -41,6 +50,7 @@ public class arrayList{
         }
         Collections.sort(list);
         System.out.println(list);
+        
         
         //Array
         // int arr[] = new int[2];
